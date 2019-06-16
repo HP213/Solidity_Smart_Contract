@@ -3,7 +3,7 @@ pragma solidity ^0.4.25;
 contract Inbox{
     string public message;
 
-    function Inbox (string InitialMessage) public{
+    constructor(string InitialMessage) public{
         message = InitialMessage;
     }
 
